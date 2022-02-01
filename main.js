@@ -2,7 +2,7 @@
 
 function renderCoffee(coffee) {
     var html = '<div class="coffee col-12 col-lg-6">';
-    html += '<h2>' + coffee.name + '</h2>';
+    html += '<h2><i class="fas fa-skull"></i>' + coffee.name + '</h2>';
     html += '<p>' + coffee.roast + '</p>';
     html += '</div>';
 
@@ -23,6 +23,7 @@ function updateCoffees(e) {
     var filteredCoffees = [];
     var searchCoffee = coffeeSearch.value;
     console.log(searchCoffee)
+
     coffees.forEach(function(coffee) {
         if (coffee.roast === selectedRoast ) {
             if (coffee.name === searchCoffee){

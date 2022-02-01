@@ -9,9 +9,51 @@
 /*}*/
 
 body {
-   background-image: url('.idea/img/Coffee.jpg');
-   background-size: cover;
-   background-repeat: no-repeat;
-   background-position: center center;
+  margin:0px;
+   background-image: url(".idea/img/bat.gif.crdownload");
+}
 
+
+
+#coffee-search {
+   width: 200px;
+}
+
+
+#coffees {
+   font-family: 'Quintessential', cursive;;
+   font-style: italic;
+   font-weight: bold;
+   color: white;
+   font-size: 30px;
+
+
+}
+
+h1{
+   font-family: 'Neonderthaw', cursive;
+   font-size: 100px;
+   color: black;
+   margin-bottom: 50px;
+}
+
+#coffee-box {
+   padding-top: 10px;
+   background-color: #504b4b;
+   border-radius: 25px;
+}
+
+#select-box {
+   padding-top: 10px;
+   background-color: #504b4b;
+   border-radius: 25px;
+}
+
+#spider {
+   transform: rotate(270deg);
+}
+
+form {
+   height: 200px;
+   float: right;
 }
